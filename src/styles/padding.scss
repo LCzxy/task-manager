@@ -1,0 +1,17 @@
+@each $num in 0, 2, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 5, 10, 15 {
+  .pt-#{$num} {
+    padding-top: #{$num}px;
+  }
+  .pr-#{$num} {
+    padding-right: #{$num}px;
+  }
+  .pb-#{$num} {
+    padding-bottom: #{$num}px;
+  }
+  .pl-#{$num} {
+    padding-left: #{$num}px;
+  }
+  .pd-#{$num} {
+    padding: #{$num}px;
+  }
+}

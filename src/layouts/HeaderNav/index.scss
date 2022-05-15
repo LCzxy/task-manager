@@ -1,0 +1,9 @@
+@import '@/styles/color.scss';
+.header-nav {
+  text-align: right;
+  .header-fun {
+    color: $primary-color;
+    cursor: pointer;
+    user-select: none;
+  }
+}
